@@ -173,7 +173,7 @@ for i in chosenFeaturesList:
 costForEachTestedRound = np.zeros(n)
 # numOfIterations = 100
 initial_cost = cost(theta, mini_X_Learn_List, mini_Y_LearnList)
-alpha = 0.3
+# alpha = 0.1
 
 minCost = initial_cost
 current_cost = minCost
