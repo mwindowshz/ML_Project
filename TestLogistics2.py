@@ -58,7 +58,7 @@ def predict(theta, X):
 # program main :
 
 # read input data
-filename = "C:\\Users\\owner\\Google Drive\\docs\\study\\ML_final_Project\\real_project_data.xls"
+filename = ".\\Data\\real_project_data.xls"
 data = pd.read_excel(filename)
 # m- num of samples, n-num of colums
 # note  - number first colume is the y values, so we would split data into Y vector and X matrix
