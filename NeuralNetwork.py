@@ -4,14 +4,16 @@ import numpy as np
 import pandas as pd
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
+from keras import initializers
 from sklearn.cross_validation import train_test_split
 from sklearn import preprocessing
 import numpy as np
 from sklearn.metrics import confusion_matrix
+import matplotlib.pyplot as plt
 
 from keras.optimizers import SGD, RMSprop
 
-filename = "C:\\Users\\owner\\Google Drive\\docs\\study\\ML_final_Project\\real_project_data.csv"
+filename = "Data/real_project_data.csv"
 
 # Data =DataLoader.LoadData(filename)
 # X = Data.iloc[:, 0:20].astype(float)
@@ -34,11 +36,11 @@ np.random.seed(seed)
 (x_train, x_test, y_train, y_test) = train_test_split(X, Y, test_size=0.33, random_state=seed)
 
 #
-
+kernelInit = initializers.VarianceScaling(scale=2.0, mode='fan_in', distribution='normal', seed=None)
 model = Sequential()
-model.add(Dense(20, input_dim=20, activation='relu'))
+model.add(Dense(20, input_dim=20, activation='relu',    kernel_initializer='he_normal',bias_initializer='zeros'))
 model.add(Dropout(0.5))
-model.add(Dense(64, activation='relu'))
+model.add(Dense(64, activation='relu',kernel_initializer='he_normal'))
 model.add(Dropout(0.5))
 model.add(Dense(1, activation='sigmoid'))
 sgd = SGD(lr=0.001, decay=1e-6, momentum=0.9, nesterov=True)
@@ -47,19 +49,54 @@ model.compile(loss='binary_crossentropy',
               # optimizer='rmsprop',
               # optimizer=sgd,
               # optimizer=rms,
-              optimizer='adagrad',
+              # optimizer=RMSprop(lr=0.1),
+              optimizer='adam',
               metrics=['accuracy'])
-model.fit(x_train, y_train,
+history = model.fit(x_train, y_train,
+                    validation_data=(x_test, y_test),
           epochs=500,
           batch_size=40, verbose=1)
-score = model.evaluate(x_test, y_test, batch_size=128)
+score = model.evaluate(x_test, y_test, batch_size=50)
 print("\nAccuracy: %.2f%%" % (score[1] * 100))
+
+
+# # list all data in history
+# print(history.history.keys())
+# plt.plot(history.history['acc'])
+# plt.title('model accuracy')
+# plt.ylabel('accuracy')
+# plt.xlabel('epoch')
+# plt.legend(['train', 'test'], loc='upper left')
+# plt.show()
+#
+# plt.plot(history.history['loss'])
+# plt.title('model loss')
+# plt.ylabel('loss')
+# plt.xlabel('epoch')
+# plt.legend(['train', 'test'], loc='upper left')
+# plt.show()
+# # summarize history for accuracy
+plt.plot(history.history['acc'])
+plt.plot(history.history['val_acc'])
+plt.title('model accuracy')
+plt.ylabel('accuracy')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper left')
+plt.show()
+# summarize history for loss
+plt.plot(history.history['loss'])
+plt.plot(history.history['val_loss'])
+plt.title('model loss')
+plt.ylabel('loss')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper left')
+plt.show()
 
 # # confusion train
 # y_true = np.argmax(y_train, axis=0)
 # y_pred = np.argmax(model.predict(x_train), axis=1)
 # print(confusion_matrix(y_true, y_pred))
-#
+# #
 # # confusion test
 # y_true = np.argmax(y_test, axis=1)
 # y_pred = np.argmax(model.predict(x_test), axis=1)
