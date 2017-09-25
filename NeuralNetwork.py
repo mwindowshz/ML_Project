@@ -59,6 +59,7 @@ history = model.fit(x_train, y_train,
           batch_size=40, verbose=1)
 score = model.evaluate(x_test, y_test, batch_size=50)
 print("\nAccuracy: %.2f%%" % (score[1] * 100))
+model.summary()
 
 
 # # list all data in history
