@@ -110,7 +110,7 @@ We used the "Keras" library with the Theano backend. We tried to build several s
 
 * First layer is the input (size: 20)
 * Fully connected layer (size: 20)
-* Dropout layer (non learning layer, has no parameters)
+* Dropout layer (non learning layer, has no parameters, is used to regulate the learning not to lock on specific features and ignor others)
 * FC Layer (size: 64) 
 * Dropout
 * Classifier layer (with a sigmoid activation)
@@ -131,6 +131,9 @@ Out of all methods the Neural Network urged us to explore it in more depth in fu
 
 ## Conclusion
 
-We saved the model as described in the *SVM* section. 
+We saved the model as described in the *SVM* section.
+Using SVM was a good choice, and using GridSearch helped finding a good configuration.
+Very important was using random data, and diffrent splits, to try and get a more robust classifier.
+
 
 ## 
