@@ -7,7 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3c06646-14d4-41fb-90a6-e164d62077f2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SVC_Params.pkl" afterPath="$PROJECT_DIR$/SVC_Params.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SVC_Params.pkl_01.npy" afterPath="$PROJECT_DIR$/SVC_Params.pkl_01.npy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SVC_Params.pkl_02.npy" afterPath="$PROJECT_DIR$/SVC_Params.pkl_02.npy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SVC_Params.pkl_03.npy" afterPath="$PROJECT_DIR$/SVC_Params.pkl_03.npy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SVC_Params.pkl_04.npy" afterPath="$PROJECT_DIR$/SVC_Params.pkl_04.npy" />
@@ -18,9 +17,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SVC_Params.pkl_09.npy" afterPath="$PROJECT_DIR$/SVC_Params.pkl_09.npy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SVC_Params.pkl_10.npy" afterPath="$PROJECT_DIR$/SVC_Params.pkl_10.npy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeuralNetwork.py" afterPath="$PROJECT_DIR$/NeuralNetwork.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RunClassifiers.py" afterPath="$PROJECT_DIR$/RunClassifiers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestLogistics2.py" afterPath="$PROJECT_DIR$/TestLogistics2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,13 +30,22 @@
     <SUITE FILE_PATH="coverage/ML_Final$TestLogistic.coverage" NAME="TestLogistic Coverage Results" MODIFIED="1505664105888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_Final$TestLogistics2.coverage" NAME="TestLogistics2 Coverage Results" MODIFIED="1506357341587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_Final$NeuralNetwork.coverage" NAME="NeuralNetwork Coverage Results" MODIFIED="1506356053930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_Final$RunClassifiers.coverage" NAME="RunClassifiers Coverage Results" MODIFIED="1506356115707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_Final$RunClassifiers.coverage" NAME="RunClassifiers Coverage Results" MODIFIED="1506359087933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_Final$first.coverage" NAME="first Coverage Results" MODIFIED="1504760764745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_Final$TestSVM.coverage" NAME="TestSVM Coverage Results" MODIFIED="1505663075364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="notebook.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notebook.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="NeuralNetwork.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeuralNetwork.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,21 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="link.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/theano/gof/link.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunClassifiers.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RunClassifiers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RunClassifiers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2202">
-              <caret line="220" column="75" lean-forward="false" selection-start-line="220" selection-start-column="75" selection-end-line="220" selection-end-column="75" />
+            <state relative-caret-position="306">
+              <caret line="228" column="32" lean-forward="false" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="32" />
               <folding>
                 <element signature="e#1#19#0" expanded="true" />
               </folding>
@@ -108,8 +103,8 @@
       <file leaf-file-name="TestLogistic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestLogistic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="-1584">
+              <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -135,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestLogistics2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestLogistics2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestLogistics2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="140" column="48" lean-forward="true" selection-start-line="140" selection-start-column="48" selection-end-line="140" selection-end-column="48" />
+            <state relative-caret-position="357">
+              <caret line="147" column="25" lean-forward="false" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -165,10 +160,11 @@
       <find>X_train</find>
       <find>owner</find>
       <find>5</find>
-      <find>keras</find>
       <find>plot</find>
       <find>adam</find>
       <find>filename</find>
+      <find>keras</find>
+      <find>Best 5 featur</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -232,6 +228,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -260,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TestLogistics2">
+  <component name="RunManager" selected="Python.RunClassifiers">
     <configuration default="false" name="TestSVM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -514,8 +524,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.TestLogistics2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.RunClassifiers" />
+        <item index="0" class="java.lang.String" itemvalue="Python.RunClassifiers" />
+        <item index="1" class="java.lang.String" itemvalue="Python.TestLogistics2" />
         <item index="2" class="java.lang.String" itemvalue="Python.NeuralNetwork" />
         <item index="3" class="java.lang.String" itemvalue="Python.TestLogistic" />
         <item index="4" class="java.lang.String" itemvalue="Python.TestSVM" />
@@ -567,7 +577,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3115693" sideWeight="0.5021552" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32" sideWeight="0.49784482" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38705882" sideWeight="0.49784482" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1118,13 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notebook.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataLoader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1193,29 +1196,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestLogistics2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="147" column="25" lean-forward="false" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestLogistic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="12" />
+        <state relative-caret-position="-1584">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebook.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RunClassifiers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2202">
-          <caret line="220" column="75" lean-forward="false" selection-start-line="220" selection-start-column="75" selection-end-line="220" selection-end-column="75" />
+        <state relative-caret-position="306">
+          <caret line="228" column="32" lean-forward="false" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="32" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestLogistics2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="140" column="48" lean-forward="true" selection-start-line="140" selection-start-column="48" selection-end-line="140" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
