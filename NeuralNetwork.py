@@ -51,6 +51,7 @@ model.compile(loss='binary_crossentropy',
               # optimizer=rms,
               # optimizer=RMSprop(lr=0.1),
               optimizer='adam',
+              # optimizer='adagrad',
               metrics=['accuracy'])
 history = model.fit(x_train, y_train,
                     validation_data=(x_test, y_test),

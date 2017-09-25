@@ -40,7 +40,7 @@ def split_data(data, randomizeData, divider, normalizeType):
     [m, n] = data.shape
     if randomizeData:
         shuffeldData = data.sample(frac=1).reset_index(drop=True)
-    else
+    else:
         shuffeldData = data
     # collect features v1 to v20
     X_all = shuffeldData.iloc[:, 0:n - 1]
@@ -133,7 +133,7 @@ def RunSavedClassifier(savedClassifilerPKL,XTrain,yTrain,XTest,YTest):
 #main program area
 
 
-filename = "C:\\Users\\owner\\Google Drive\\docs\\study\\ML_final_Project\\real_project_data.xls"
+filename = "Data/real_project_data.xls"
 data = LoadData(filename)
 
 #scatter_matrix(data,alpha=0.2, figsize=(6, 6), diagonal='kde')
@@ -155,7 +155,7 @@ X_all = preprocessing.scale(X_all)
 #xStd += 0.00001
 #h = (X_all - xMean) / xStd
 
-divider = 2
+divider = 5
 # Shuffle and split the dataset into training and testing set.
 X_train, X_test, y_train, y_test = train_test_split(X_all, y_all,
                                                     test_size = int(m/divider),
@@ -169,7 +169,7 @@ X_train, X_test, y_train, y_test = train_test_split(X_all, y_all,
 #create classifiers
 
 # Initialize the three models (XGBoost is initialized later)
-clf_A = LogisticRegression(random_state = 42)
+clf_A = LogisticRegression(random_state = 42, verbose=True)
 clf_B = SVC(random_state = 912, kernel='rbf')
 #Boosting refers to this general problem of producing a very accurate prediction rule
 #by combining rough and moderately inaccurate rules-of-thumb
