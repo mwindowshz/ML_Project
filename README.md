@@ -33,6 +33,8 @@ Although *LR* seems to be a good choice, the different parameters did not always
 
 # TODO: Add image ...logisticRegressionSklearn
 
+![Image of Yaktocat](images/logistic_sklearn_res.PNG)
+
 
 
 #### Self Implemented LR
