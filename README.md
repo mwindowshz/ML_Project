@@ -22,7 +22,14 @@ In order to find the best classifier for the given dataset we used several appro
 
 **Normalization**
 
+Following best practices learned during the course, we normalized the given dataset before applying any of the classification techniques. The normalization was partly done by hand using mean and standard deviation, and partly using the build in sklearn preprocessing feature with `scale` or `normalize` funcitons.
+
 **Randomization**
+
+In all scenarios we split the data in to train/test groups using the sklearn `train_test_split` function. We used the randomization parameter, such that each and every run had a unique train/test set. 
+
+Additionally, we tried changing the split ratio between train/test, i.e. 90% train and 10% test, and others.
+
 
 ### Logistic Regression (*LR*)
 
@@ -125,3 +132,5 @@ Out of all methods the Neural Network urged us to explore it in more depth in fu
 ## Conclusion
 
 We saved the model as described in the *SVM* section. 
+
+## 
