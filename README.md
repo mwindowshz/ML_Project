@@ -67,7 +67,7 @@ best_features.push(next_best_feature)
 **Conclusion**
 Running the feature selection multiple times with randomized train/test split we noticed that certain features were always included in the 'winner' set, whereas others we only sometimes included. It seems that the features which are always present are really representative for the whole dataset whereas other are less representative or significant in general, or the differences between them are tinier.
 
-### SVM
+### SVM (RunClassifier.py)
 
 * Added SVM with "rbf" kernel
 * Got good results (93%) without any changes
@@ -93,5 +93,33 @@ SKLearn provides an important and useful feature called *GridSearchCV* which all
 
 The *GridSearchCV* function allows us to save the best performing model including the parameters in order to be able to run it on other data without running the comparisons again. `joblib.dump(clf, "SVC_Params.pkl")`
 
+## Neural Network (NeuralNetwork.py)
 
 
+
+We used the "Keras" library with the Theano backend. We tried to build several simple network architectures. The final one presented here looks as follows:
+
+* First layer is the input (size: 20)
+* Fully connected layer (size: 20)
+* Dropout layer (non learning layer, has no parameters)
+* FC Layer (size: 64) 
+* Dropout
+* Classifier layer (with a sigmoid activation)
+
+We used different optimizers (sgd, rmsprop, adagrad, adam) with different specific hyperparameters.
+
+In all the scenarios we were only able to achieve results not as good as the ones we've got using *SVM* or *LR*. There are different reasons which in our view could explain this anomaly:
+
+* The network architecture does not fit the dataset well enough
+* The training dataset is too small
+* Wrong paremters selected due to time constraints and only partial knowledge of the approach
+
+Out of all methods the Neural Network urged us to explore it in more depth in future.
+
+# TODO: add images: 
+3 images with neural networks
+
+
+## Conclusion
+
+We saved the model as described in the *SVM* section. 
