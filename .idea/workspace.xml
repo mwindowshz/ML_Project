@@ -7,8 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3c06646-14d4-41fb-90a6-e164d62077f2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeuralNetwork.py" afterPath="$PROJECT_DIR$/NeuralNetwork.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RunClassifiers.py" afterPath="$PROJECT_DIR$/RunClassifiers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebook.ipynb" afterPath="$PROJECT_DIR$/notebook.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +19,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ML_Final$tests.coverage" NAME="tests Coverage Results" MODIFIED="1504867960395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_Final$TestLogistic.coverage" NAME="TestLogistic Coverage Results" MODIFIED="1505664105888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_Final$TestLogistics2.coverage" NAME="TestLogistics2 Coverage Results" MODIFIED="1506357341587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_Final$TestLogistics2.coverage" NAME="TestLogistics2 Coverage Results" MODIFIED="1506528266292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_Final$NeuralNetwork.coverage" NAME="NeuralNetwork Coverage Results" MODIFIED="1506527308008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_Final$RunClassifiers.coverage" NAME="RunClassifiers Coverage Results" MODIFIED="1506359791859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_Final$first.coverage" NAME="first Coverage Results" MODIFIED="1504760764745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -38,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NeuralNetwork.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NeuralNetwork.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeuralNetwork.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
@@ -95,38 +94,18 @@
       <file leaf-file-name="TestLogistic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestLogistic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="-1773">
               <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cross_validation.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/sklearn/cross_validation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42456">
-              <caret line="1791" column="4" lean-forward="false" selection-start-line="1791" selection-start-column="4" selection-end-line="1791" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classification.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/sklearn/metrics/classification.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12408">
-              <caret line="537" column="4" lean-forward="false" selection-start-line="537" selection-start-column="4" selection-end-line="537" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestLogistics2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestLogistics2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestLogistics2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3480">
-              <caret line="147" column="25" lean-forward="false" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
+            <state relative-caret-position="203">
+              <caret line="112" column="19" lean-forward="false" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -157,6 +136,7 @@
       <find>keras</find>
       <find>Best 5 featur</find>
       <find>filename</find>
+      <find>alpha</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,10 +153,10 @@
         <option value="$PROJECT_DIR$/DataLoader.py" />
         <option value="$USER_HOME$/AppData/Local/Theano/compiledir_Windows-10-10.0.15063-SP0-Intel64_Family_6_Model_78_Stepping_3_GenuineIntel-3.5.2-64/lazylinker_ext/mod.cpp" />
         <option value="$PROJECT_DIR$/TestSVM.py" />
-        <option value="$PROJECT_DIR$/TestLogistics2.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/RunClassifiers.py" />
         <option value="$PROJECT_DIR$/NeuralNetwork.py" />
+        <option value="$PROJECT_DIR$/TestLogistics2.py" />
       </list>
     </option>
   </component>
@@ -262,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.NeuralNetwork">
+  <component name="RunManager" selected="Python.TestLogistics2">
     <configuration default="false" name="TestSVM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -516,9 +496,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.NeuralNetwork" />
-        <item index="1" class="java.lang.String" itemvalue="Python.RunClassifiers" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TestLogistics2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TestLogistics2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.NeuralNetwork" />
+        <item index="2" class="java.lang.String" itemvalue="Python.RunClassifiers" />
         <item index="3" class="java.lang.String" itemvalue="Python.TestLogistic" />
         <item index="4" class="java.lang.String" itemvalue="Python.TestSVM" />
       </list>
@@ -908,6 +888,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68424">
           <caret line="2851" column="0" lean-forward="false" selection-start-line="2851" selection-start-column="0" selection-end-line="2851" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -985,6 +966,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1538">
           <caret line="2785" column="4" lean-forward="false" selection-start-line="2785" selection-start-column="4" selection-end-line="2785" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -999,6 +981,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67656">
           <caret line="2851" column="0" lean-forward="false" selection-start-line="2851" selection-start-column="0" selection-end-line="2851" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,34 +1106,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/sklearn/cross_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42456">
-          <caret line="1791" column="4" lean-forward="false" selection-start-line="1791" selection-start-column="4" selection-end-line="1791" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestLogistics2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3480">
-          <caret line="147" column="25" lean-forward="false" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestLogistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1195,6 +1154,30 @@
           <folding>
             <element signature="e#38#55#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/sklearn/cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1791" column="4" lean-forward="false" selection-start-line="1791" selection-start-column="4" selection-end-line="1791" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestLogistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1773">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestLogistics2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="112" column="19" lean-forward="false" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
