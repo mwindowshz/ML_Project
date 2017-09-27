@@ -12,6 +12,7 @@ from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 
 from keras.optimizers import SGD, RMSprop
+from keras.utils import plot_model
 
 filename = "Data/real_project_data.csv"
 
@@ -38,9 +39,9 @@ np.random.seed(seed)
 #
 kernelInit = initializers.VarianceScaling(scale=2.0, mode='fan_in', distribution='normal', seed=None)
 model = Sequential()
-model.add(Dense(20, input_dim=20, activation='relu',    kernel_initializer='he_normal',bias_initializer='zeros'))
+model.add(Dense(8, input_dim=20, activation='relu',    kernel_initializer='he_normal',bias_initializer='zeros'))
 model.add(Dropout(0.5))
-model.add(Dense(64, activation='relu',kernel_initializer='he_normal'))
+model.add(Dense(15, activation='relu',kernel_initializer='he_normal'))
 model.add(Dropout(0.5))
 model.add(Dense(1, activation='sigmoid'))
 sgd = SGD(lr=0.001, decay=1e-6, momentum=0.9, nesterov=True)
@@ -61,6 +62,8 @@ score = model.evaluate(x_test, y_test, batch_size=50)
 print("\nAccuracy: %.2f%%" % (score[1] * 100))
 model.summary()
 
+
+plot_model(model, to_file='model.png',show_shapes=True)
 
 # # list all data in history
 # print(history.history.keys())

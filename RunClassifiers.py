@@ -147,6 +147,7 @@ y_all = shuffeldData.iloc[:, n-1:n]
 #change Y with get_dummies to 0,1
 #y_all = pd.get_dummies(y_all,drop_first='M')
 
+#normalize Data
 X_all = preprocessing.scale(X_all)
 #scale(X_all)
 # normalize X
