@@ -68,7 +68,12 @@ best_features.push(next_best_feature)
 
 
 ![](images/LogisticRegersion_On_X_Best_restExample.png)
-![](images/LogisticRegersion_On_X_Best.png)
+![50](images/LogisticRegersion_On_X_Best.png)
+
+#TODO Add image: 0.03 50 iter
+
+
+As we can see, by lowering the alpha from 0.3 to 0.03 and keeping the number of iterations fixed, the model delivers far worse results. Although increasing the iteration size helped reduce the cost in the gradient descent, finding the appropriate alpha seemed to be a more reasonable approach. 
 
 
 **Conclusion**
@@ -111,7 +116,7 @@ We used the "Keras" library with the Theano backend. We tried to build several s
 
 * First layer is the input (size: 20)
 * Fully connected layer (size: 20)
-* Dropout layer (non learning layer, has no parameters, is used to regulate the learning not to lock on specific features and ignor others)
+* Dropout layer (non learning layer, has no parameters)
 * FC Layer (size: 64) 
 * Dropout
 * Classifier layer (with a sigmoid activation)
@@ -132,9 +137,6 @@ Out of all methods the Neural Network urged us to explore it in more depth in fu
 
 ## Conclusion
 
-We saved the model as described in the *SVM* section.
-Using SVM was a good choice, and using GridSearch helped finding a good configuration.
-Very important was using random data, and diffrent splits, to try and get a more robust classifier.
-
+We saved the model as described in the *SVM* section. 
 
 ## 
