@@ -38,10 +38,8 @@ Additionally, we tried changing the split ratio between train/test, i.e. 90% tra
 
 Although *LR* seems to be a good choice, the different parameters did not always bring different results. The overall success rate was between 90-92 %.
 
-# TODO: Add image ...logisticRegressionSklearn
 
-![Image of Yaktocat](images/logistic_sklearn_res.PNG)
-
+![](images/logistic_sklearn_res.PNG)
 
 
 #### Self Implemented LR
@@ -68,9 +66,9 @@ best_features.push(next_best_feature)
 * Repeat adding one feature at a time together with already selected and selecting next best performing feature
 * Run *LR* on the whole dataset, but only on X selected features
 
-# TODO: Add images:
-* LogisticRegersion_On_X_Best_restExample.png
-* LogisticRegersion_On_X_Best.png
+
+![](images/LogisticRegersion_On_X_Best_restExample.png)
+![](images/LogisticRegersion_On_X_Best.png)
 
 
 **Conclusion**
@@ -98,7 +96,10 @@ param_grid = [
 
 SKLearn provides an important and useful feature called *GridSearchCV* which allows us to easily define an array of parameters and autoruns all the models, returning the best performing ones. As seen in the code sample, ` {'C': [0.1, 1, 10, 100, 1000], 'gamma': [0.001, 0.0001], 'kernel': ['sigmoid']}`, the `sigmoid` kernel was run with 5 different regularization paremeters:  [0.1, 1, 10, 100, 1000], and 2 different gamma:  [0.001, 0.0001].
 
-# TODO: add image : gridSearch_res
+
+
+![](images/gridSearch_res.PNG)
+
 
 The *GridSearchCV* function allows us to save the best performing model including the parameters in order to be able to run it on other data without running the comparisons again. `joblib.dump(clf, "SVC_Params.pkl")`
 
@@ -125,9 +126,9 @@ In all the scenarios we were only able to achieve results not as good as the one
 
 Out of all methods the Neural Network urged us to explore it in more depth in future.
 
-# TODO: add images: 
-3 images with neural networks
-
+![](images/Net_Learning_Progress.png)
+![](images/Net_modelAccuracy.png)
+![](images/Net_modelLoss.png)
 
 ## Conclusion
 
